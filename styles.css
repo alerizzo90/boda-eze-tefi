@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+}
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+
+}
+.icon {
+    width: 80px;
+    margin-top: 20px;
+}
+.texto {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+#menu a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+
+.general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7D5DF;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.general:last-of-type {
+    margin-bottom: 50px;
+}
+
+.ubi {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
