@@ -20,12 +20,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <title>Boda</title>
 </head>
 <body>
     <header>
-        <nav id="menu">
+        <!-- <nav id="menu">
             <ul>
                 <li><a href=#nosotros>Nosotros</a></li>
                 <li><a href=#ceremonia>Cuando y Donde</a></li>
@@ -33,12 +34,31 @@
                 <li><a href=#dressCode>Vestimenta</a></li>
                 <li><a href=#confirmar>Asistencia</a></li>               
             </ul>
-        </nav>
+        </nav> -->
+        <nav class="navbar navbar-expand-xl navbar-light bg-light" id="menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="ee">E y E</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse show" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href=#nosotors>Nosotros</a></li>
+                  <li class="nav-item"><a class="nav-link active" aria-current="page"href=#ceremonia>Cuando y Donde</a></li>
+                  <li class="nav-item"><a class="nav-link active" aria-current="page"href=#regalo>Regalo</a></li>
+                  <li class="nav-item"><a class="nav-link active" aria-current="page"href=#dressCode>Vestimenta</a></li>
+                  <li class="nav-item"><a class="nav-link active" aria-current="page"href=#confirmar>Asistencia</a></li>  
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <section id="invitacion" class="general">
-        <p>Nos casamos</p>
+        <p class="text1">¡Nos casamos!</p>
         <img src="img/211754_heart_icon.png" alt="boda" class="icon">
-        <h1>Estefania y Ezequiel</h1>
+        <h1>Estefanía</h1>
+        <h1>y</h1>
+        <h1>Ezequiel</h1>
         <p>11 de Febrero 2023</p>
     </section>
     <section id="nosotros" class="general wow animate__animated animate__bounceInLeft">
@@ -65,10 +85,10 @@
             <p>Si deseas regalarnos algo más que tu hermosa presencia, nada mejor que ayudarnos a pagar la luna de miel</p>
         </div>
         <div class="banco">
-            <p>DATOS BANCARIOS</p>
+            <p>DATOS BANCARIOS:</p>
             <p>Titular: Bursa, Estefania</p>
             <p>CBU: 0170209740000032031193</p>
-            <p>Alias:</p>
+            <p>Alias: estefania.bursa</p>
         </div>
        
 
@@ -84,8 +104,9 @@
         <div>
             <p> “Hay momentos en la vida que son especiales por si solos, compartir esta noche con vos, lo convierte en inolvidable”</p>
             <p>Para ser parte de nuestra historia es necesario que confirmes tu asistencia cuánto antes, la fecha límite es 30 de Noviembre 2022.</p>
-            <p>Precio de tarjeta: $6000 (Julio 2022)</p>
-            <p>*Sujeto a modificación mensualmente</p>
+            <p>Precio de tarjeta: $6000</p>
+            <p>(Julio 2022)</p>
+            <p class="modi">*Sujeto a modificación mensualmente</p>
             <p>Confirmar asistencia a:</p>
             <p><img src="img/whatsapp.png" alt="whatsapp" class="wp"><a href="https://api.whatsapp.com/send?phone=543416172808&text=Hola%20chicos!%20confirmo%20asistencia%20a%20la%20boda..%20">Tefi</a></p>
             <p><img src="img/whatsapp.png" alt="whatsapp" class="wp"><a href="https://api.whatsapp.com/send?phone=543416008898&text=Hola%20chicos!%20confirmo%20asistencia%20a%20la%20boda..%20">Eze</a></p>
@@ -95,6 +116,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script> new WOW().init();</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>

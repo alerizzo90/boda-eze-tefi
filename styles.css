@@ -1,65 +1,62 @@
 body {
-    background-image:url(img/tropical-monstera-leaf-border-frame-leaf-banner-background.jpg);
+    background-image:url(img/4520105.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 100% 100%;
+    background-position: center;
 
 
 }
 h1 {
     font-family: 'Rouge Script', cursive;
-    font-size: 4rem;
+    font-size: 6rem !important;
     text-align: center;
+    margin-top: 0;
 }
 h2 {
     font-family: 'Rouge Script', cursive;
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
 }
 p {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
+    margin: 0.5rem !important;
 
 }
-.icon {
-    width: 80px;
-    margin-top: 20px;
+.text1 {
+    font-size: 1.5rem;
 }
-.texto {
-    font-family: 'Great Vibes', cursive;
+.modi {
+    font-size: 1rem;
+}
+#ee {
+    font-family: 'Rouge Script', cursive;
     font-size: 2rem;
-}
-#menu ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.25rem;
-    background-color: transparent;
-    padding: 15px;
-    
-}
-#menu a {
-    text-decoration: none;
-    color: black;
-}
-#menu a:hover {
-    color: red;
     font-weight: bold;
 }
-
+.icon {
+    width: 60px;
+}
+.texto {
+    font-family: 'Rouge Script', cursive;
+    font-size: 2rem;
+}
+.nav-link:hover {
+    font-family: 'Rouge Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 .general {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(89, 147, 119, 0.284);
+    background-color: rgba(255, 255, 255, 0.8);
     margin-top: 100px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
     padding: 40px;
 }
 .general:last-of-type {
