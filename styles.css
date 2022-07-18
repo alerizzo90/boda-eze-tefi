@@ -80,3 +80,8 @@ p {
     width: 30px;
     margin-bottom: 0;
 }
+@media (min-width: 800px) {
+    #carousel {
+        width: 600px;
+    }
+}
