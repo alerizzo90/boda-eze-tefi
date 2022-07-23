@@ -1,5 +1,5 @@
 body {
-    background-image:url(img/4520105.jpg);
+    background-image:url(img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -115,18 +115,19 @@ p {
     align-items: center;
     background-color: black;
     color: #ffffff;
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: bold;
-    width: 70px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 10px;
 }
   
 .cont-temporizador .bloque p{
-    font-size: 11px;
+    font-size: 1rem;
     font-weight: bold;
     color:black;
 }
+
 @media (min-width: 800px) {
     #carousel {
         width: 600px;
