@@ -21,7 +21,12 @@ p {
     margin: 0.25rem !important;
 
 }
-
+#invitacion {
+    background-image: url(img/4520105.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .text1 {
     font-size: 1.5rem;
 }
