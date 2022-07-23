@@ -98,7 +98,8 @@ p {
 .cont-temporizador{
     display: flex;
     justify-content: center;   
-    margin-top: 50px; 
+    margin-top: 50px;
+
 }
   
 .cont-temporizador .bloque{
@@ -112,21 +113,19 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(80, 80, 80);
-    box-shadow: 0px 0px 6px 2px #727272 inset;
+    background-color: black;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 1.25rem;
     font-weight: bold;
-    width: 100px;
-    height: 70px;
+    width: 70px;
+    height: 40px;
     margin-bottom: 10px;
-    border-radius: 5px;
 }
   
 .cont-temporizador .bloque p{
     font-size: 11px;
     font-weight: bold;
-    color: #d6d6d6;
+    color:black;
 }
 @media (min-width: 800px) {
     #carousel {
