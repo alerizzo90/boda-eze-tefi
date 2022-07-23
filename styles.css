@@ -1,7 +1,6 @@
 body {
-    background-image:url(img/4520105.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image:url(img/leaves-pattern.webp);
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center; 
 }
@@ -57,7 +56,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(164, 216, 168, 0.453);
     margin-top: 100px;
     margin-right: 5%;
     margin-left: 5%;
